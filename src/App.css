@@ -1,0 +1,79 @@
+#calculator {
+	width: 317px;
+	height: 420px;
+	margin: 0 auto;
+	margin-top: 100px;
+	box-shadow: 0 0 15px #000;
+	background-color:#B9B9B9;
+}
+
+#txtScreen {
+	float: left;
+	width: 315px;
+	height: 100px;
+	font-size: xx-large;
+	text-align: right;
+	border:none;
+	border-top: 10px solid #1BE1B0;
+	font-weight: bold;
+}
+
+.numericPad {
+	position: relative;
+	float: left;
+	background-color: #4E4E4E;
+}
+
+.btnNum {
+	width: 77px;
+	height: 77.5px;
+	color: #ffffff;
+	background-color: #4E4E4E;
+	border: none;
+	font-size: large;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btnNum:hover {
+	background-color: #464545;
+}
+
+.funtionPad {
+	position: relative;
+	float: left;
+	background-color: #B9B9B9;
+}
+
+.btnFuntionPad {
+	width: 86px;
+	height: 62px;
+	color: #ffffff;
+	background-color: #B9B9B9;
+	border: none;
+	font-size: large;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btnFuntionPad:hover {
+	background-color: #ACABAB;
+}
+
+
+.btnEqual {
+        width: 86px;
+        height: 62px;
+        color: #ffffff;
+        background-color: #1BE1B0;
+        border: none;
+        font-size: large;
+        font-weight: bold;
+        cursor: pointer;
+}
+
+.btnEqual:hover {
+	background-color: #16c095;
+}
+
+

@@ -14,7 +14,7 @@
 	font-size: xx-large;
 	text-align: right;
 	border:none;
-	border-top: 10px solid #1BE1B0;
+	border-top: 10px solid #E41E4F;
 	font-weight: bold;
 }
 
@@ -65,7 +65,7 @@
         width: 86px;
         height: 62px;
         color: #ffffff;
-        background-color: #1BE1B0;
+        background-color: #E41E4F;
         border: none;
         font-size: large;
         font-weight: bold;

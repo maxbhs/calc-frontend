@@ -1,3 +1,4 @@
 FROM nginx
 COPY build /usr/share/nginx/html
-ENV PATH "$PATH:/usr/bin"
+RUN apt-get update -y && \ 
+    apt-get install -y dnsutils

@@ -11,7 +11,7 @@ class App extends Component {
 	};
 
 	sendExpr() {
-		fetch('http://calc-webapp-lb/calculator', {
+		fetch('http://calc-logic-lb/calculator', {
 			method: 'POST',
       			headers: {
 				'Content-Type': 'application/json'

@@ -30,7 +30,7 @@ pipeline {
 				echo 'Functional testing'
 			}
 		}
-        	stage('Deploy') {
+        	stage('Deploy Test') {
             		steps {
 				sh 'cp $JENKINS_HOME/workspace/TFG-WORKSPACE/ScriptsJenkinsTFG/Deploy/deploy_docker_image.sh .'
 				sh 'cp $JENKINS_HOME/workspace/TFG-WORKSPACE/ScriptsJenkinsTFG/Deploy/resource-manifests/appname-deployment.yaml ${AppName}-deployment.yaml'
@@ -46,7 +46,7 @@ pipeline {
 				}
                         }
                 }
-		stage('Deploy'){
+		stage('Deploy PRO'){
 			steps {
 				sh 'cp $JENKINS_HOME/workspace/TFG-WORKSPACE/ScriptsJenkinsTFG/Deploy/deploy_docker_image.sh .'
                                 sh 'cp $JENKINS_HOME/workspace/TFG-WORKSPACE/ScriptsJenkinsTFG/Deploy/resource-manifests/appname-deployment.yaml ${AppName}-deployment.yaml'

@@ -23,6 +23,13 @@ pipeline {
         	stage('Test: Code quality and security') {
             		steps {
                 		echo 'Quality and security testing'
+				sh 'cp $JENKINS_HOME/workspace/TFG-WORKSPACE/ScriptsJenkinsTFG/Test/test_app.sh .'
+                                sh 'cp $JENKINS_HOME/workspace/TFG-WORKSPACE/ScriptsJenkinsTFG/Test/test_${Language}_app.sh .'
+				sh 'chmod 700 test_app.sh'
+                                sh 'chmod 700 test_${Language}_app.sh'
+                                sh './test_app.sh'
+                                sh 'rm test_app.sh'
+                                sh 'rm test_${Language}_app.sh'
             		}
         	}
 		stage('Test: Functional'){

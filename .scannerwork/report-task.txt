@@ -1,6 +1,0 @@
-projectKey=calc-frontend
-serverUrl=http://172.19.69.115:9000
-serverVersion=7.4.0.18908
-dashboardUrl=http://172.19.69.115:9000/dashboard?id=calc-frontend
-ceTaskId=AWfgOT0mjM4f-0dxXQKl
-ceTaskUrl=http://172.19.69.115:9000/api/ce/task?id=AWfgOT0mjM4f-0dxXQKl

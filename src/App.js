@@ -9,9 +9,9 @@ class App extends Component {
 			result: '0'
 		};
 	};
-qwerqwrqwr
+
 	sendExpr() {
-		fetch('http://172.19.69.115:8080/calculator', {
+		fetttch('http://172.19.69.115:8080/calculator', {
 			method: 'POST',
       			headers: {
 				'Content-Type': 'application/json'

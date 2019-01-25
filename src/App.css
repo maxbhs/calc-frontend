@@ -14,7 +14,7 @@
 	font-size: xx-large;
 	text-align: right;
 	border:none;
-	border-top: 10px solid #0099ff;
+	border-top: 10px solid #279989;
 	font-weight: bold;
 }
 
@@ -65,7 +65,7 @@
         width: 86px;
         height: 62px;
         color: #ffffff;
-        background-color: #0099ff;
+        background-color: ##279989;
         border: none;
         font-size: large;
         font-weight: bold;
@@ -73,7 +73,7 @@
 }
 
 .btnEqual:hover {
-	background-color: #0019ff;
+	background-color: #3d7b80;
 }
 
 

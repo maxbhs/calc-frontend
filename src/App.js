@@ -11,7 +11,8 @@ class App extends Component {
 	};
 
 	sendExpr() {
-		fetttch('http://172.19.69.115:8080/calculator', {
+		var host = window.location.hostname;
+		fetch('http://' + host + ':8080/calculator', {
 			method: 'POST',
       			headers: {
 				'Content-Type': 'application/json'

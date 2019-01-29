@@ -14,7 +14,7 @@
 	font-size: xx-large;
 	text-align: right;
 	border:none;
-	border-top: 10px solid #279989;
+	border-top: 10px solid #F00000; //principal
 	font-weight: bold;
 }
 
@@ -65,7 +65,7 @@
         width: 86px;
         height: 62px;
         color: #ffffff;
-        background-color: ##279989;
+        background-color: #FF0000; //principal
         border: none;
         font-size: large;
         font-weight: bold;
@@ -73,7 +73,11 @@
 }
 
 .btnEqual:hover {
-	background-color: #3d7b80;
+	background-color: #F00000; //secundario
 }
+
+//RED: principal: FF0000, secundario F00000
+//BLUE: principal: 0074FF, secundario 0024FF
+//GREN: principal: 46FF00, secundario 21C600
 
 
